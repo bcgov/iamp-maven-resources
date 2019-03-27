@@ -16,7 +16,7 @@
 			file name: spring-security-core-5.1.4.RELEASE.jar
 			]]>
 		</notes>
-		<gav regex="true">^org\.springframework\.boot:spring-boot:.*$</gav>
+		<!--<gav regex="true">^org\.springframework\.boot:spring-boot:.*$</gav>-->
 		<cve>CVE-2018-1258</cve>
 	</suppress>
 </suppressions>
