@@ -10,15 +10,13 @@
 		<cpe>cpe:/a:splunk:splunk</cpe>
 	</suppress> -->
 
-	<!-- <suppress>
+	<suppress>
 		<notes>
 			<![CDATA[
-			file name: spring-boot-1.4.3.RELEASE.jar
-			Known false positive: https://github.com/jeremylong/DependencyCheck/issues/642
-			This can be safely removed after next release of Dependency Check > 1.4.4.1
+			file name: spring-security-core-5.1.4.RELEASE.jar
 			]]>
 		</notes>
 		<gav regex="true">^org\.springframework\.boot:spring-boot:.*$</gav>
-		<cve>CVE-2016-9878</cve>
-	</suppress> -->
+		<cve>CVE-2018-1258</cve>
+	</suppress>
 </suppressions>
